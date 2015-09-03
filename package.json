@@ -1,0 +1,23 @@
+{
+  "name": "anything",
+  "version": "1.0.0",
+  "description": "A quick POC CMS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozymandias547/anything.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozymandias547/anything/issues"
+  },
+  "homepage": "https://github.com/ozymandias547/anything",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
