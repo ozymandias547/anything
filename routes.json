@@ -1,5 +1,6 @@
 {
-  "route": [{"path":"home","template":"http://0.0.0.0:3000/templates/home.html"},
-    {"path":"about-us","template":"http://0.0.0.0:3000/templates/about-us.html"},
-    {"path":"contact-us","template":"http://0.0.0.0:3000/templates/contact-us.html"}]
+  	"route": [{"path":"/","template":"home.html"},
+		    {"path":"/about","template":"about-us.html"},
+		    {"path":"/helloWorld","template":"helloWorld.html"},
+		    {"path":"/contact-us","template":"contact-us.html"}]
 }
