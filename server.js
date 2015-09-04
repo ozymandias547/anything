@@ -7,15 +7,15 @@ var routes = require('./routes.json');
 
 app.get('/*', function (req, res) {
 
-    //var url = req.originalUrl;
-    //var template = routes.route.filter(function(route){
-    //	return route.path === url;
-    //})[0].template;
+    var url = req.originalUrl;
+    var template = routes.route.filter(function(route){
+    	return route.path === url;
+    })[0].template;
 
-    var HelloComponent = require('./component/hello-component.jsx');
-    var HelloComponentInstance = React.createElement(HelloComponent, { name: "World" });
+    var PageComponent = require('./component/' + template + '.jsx');
+    var pageComponent = React.createElement(PageComponent, {});
 
-    res.send(React.renderToString(HelloComponentInstance));
+    res.send(React.renderToString(pageComponent));
 
 });
 
