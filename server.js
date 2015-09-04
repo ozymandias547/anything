@@ -10,8 +10,6 @@ app.get('/*', function (req, res) {
 
     res.sendFile(path.join(__dirname + "/templates/" + template));
 
-app.get('/', function (req, res) {
-	  res.sendFile(path.join(__dirname+'/templates/home.html'));
 });
 
 var server = app.listen(3000, function () {
