@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ozymandias547/anything",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "react": "^0.13.3"
   }
 }
