@@ -2,6 +2,6 @@ var React = require('react');
 
 module.exports = React.createClass({
     render: function() {
-        return <div>About Us</div>;
+        return <div>About Us!</div>;
     }
 });
